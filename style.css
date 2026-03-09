@@ -2,11 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-   background-image: url("https://t3.ftcdn.net/jpg/07/24/90/98/240_F_724909820_QeSkRK78xeDY6j0kRuzxVIfEbTmFB4sU.jpg");
-    text-align: center;
-    color: white;
+ body{
+   background-color: aquamarine;
 }
+
 .container{
     height: 70vh;
     display: flex;
@@ -152,3 +151,4 @@ main{
     margin-bottom: 50px;
 cursor: pointer;
 }
+
