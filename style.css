@@ -84,18 +84,19 @@ color: #ffffc7;
     display: none; 
 }
 .form{
-    margin-top: 20px;
-    word-spacing: 15px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    margin-top: 10px;
 }
-.forms input {
-    width: 200px;
-    height: 20px;
-    justify-content: center;
-    text-align: center;
 
+.form input{
+    width:180px;
+    height:40px;
+    font-size:18px;
+    text-align:center;
+    border-radius:8px;
 }
 .btnn{
      width: 90px;
@@ -119,8 +120,9 @@ color: #ffffc7;
 }
 #winLines{
     display: none;
+}
 
-/* INPUTS FOR MOBILE - EASY TO READ */
+
 @media (max-width: 600px){
 
 .form{
@@ -133,8 +135,8 @@ color: #ffffc7;
 
 .forms input{
     width:42vw;
-    height:50px;          /* bigger input box */
-    font-size:18px;       /* bigger text */
+    height:50px;          
+    font-size:18px;       
     padding:8px;
     border-radius:8px;
 }
@@ -150,9 +152,3 @@ main{
     margin-bottom: 50px;
 cursor: pointer;
 }
-
-
-
-
-
-
