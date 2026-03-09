@@ -3,7 +3,11 @@
     padding: 0px;
 }
 body{
-   background-color: aquamarine;
+background-color: #55655489;
+    text-align: center;
+    color: white;
+    z-index: -25;
+
 }
 .container{
     height: 70vh;
@@ -150,3 +154,4 @@ main{
     margin-bottom: 50px;
 cursor: pointer;
 }
+
