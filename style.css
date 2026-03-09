@@ -120,85 +120,37 @@ color: #ffffc7;
 #winLines{
     display: none;
 
- @media (max-width: 600px) {
+/* INPUTS FOR MOBILE - EASY TO READ */
+@media (max-width: 600px){
 
-    body{
-        padding: 10px;
-    }
+.form{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+    margin-top:20px;
+}
 
-    h1{
-        font-size: 6vw;
-        margin-bottom: 10px;
-    }
+.forms input{
+    width:42vw;
+    height:50px;          /* bigger input box */
+    font-size:18px;       /* bigger text */
+    padding:8px;
+    border-radius:8px;
+}
 
-    .container{
-        height: auto;
-        margin-top: 10px;
-    }
+.btnn{
+    width:130px;
+    height:45px;
+    font-size:18px;
+}
 
-    .Game{
-        width: 95vw;
-        height: 95vw;
-        gap: 2vw;
-    }
-
-    .box{
-        width: 50vw;
-        height: 60vw;
-        font-size: 20vw;
-    }
-
-    .form{
-      display:flex;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .forms input{
-        width: 200vw;
-        height: 100px;
-        font-size: 80px;
-    }
-
-    .btnn{
-        width: 120px;
-        height: 40px;
-        font-size: 16px;
-        margin-top: 10px;
-    }
-
-    #reset{
-        width: 140px;
-        height: 40px;
-        font-size: 16px;
-        margin-top: 15px;
-    }
-
-    #new-btn{
-        width: 250px;
-        height: 200px;
-        font-size: 16px;
-    }
-
-    #msg{
-        font-size: 10vw;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .msg-container{
-        height: auto;
-        padding-top: 30px;
-    }
-
-    .winLine{
-        width: 95vw;
-    }
 }
 main{
     margin-bottom: 50px;
 cursor: pointer;
 }
+
 
 
 
