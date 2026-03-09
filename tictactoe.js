@@ -74,6 +74,7 @@ boxes.forEach((box) => {
     }
 
     box.disabled = true;
+    popUp.currentTime = 0;
     popUp.play();
 
     checkWinner();
@@ -222,4 +223,5 @@ function showLine(type){
 
 
 resetBtn.addEventListener("click", resetGame);
+
 newGameBtn.addEventListener("click", resetGame);
