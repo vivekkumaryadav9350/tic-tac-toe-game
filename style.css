@@ -120,7 +120,7 @@ color: #ffffc7;
 #winLines{
     display: none;
 
-    @media (max-width: 600px) {
+  @media (max-width: 600px) {
     .Game{
         width: 90vw;
         height: 90vw;
@@ -130,6 +130,7 @@ color: #ffffc7;
         font-size: 12vw;
     }
     .form{
+        display: inline-block;
     margin-top: 20px;
     word-spacing: 15px;
     display: flex;
@@ -137,6 +138,7 @@ color: #ffffc7;
     justify-content: center;
 }
 .forms input {
+    display: inline-block;
     width: 20vw;
     height: 20vw;
     justify-content: center;
@@ -144,8 +146,9 @@ color: #ffffc7;
 
 }
 }
-}
+
 main{
     margin-bottom: 50px;
 
 }
+
