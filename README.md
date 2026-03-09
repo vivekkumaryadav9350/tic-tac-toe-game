@@ -4,8 +4,7 @@ A simple and interactive **Tic Tac Toe game** built using **HTML, CSS, and JavaS
 This project demonstrates basic front-end development concepts such as **DOM manipulation, event handling, and game logic implementation**.
 
 ---
-## How to use live server.
-*just click on  this link*
+## Copy and paste in your browser to use live server:-
 *tic-tac-toe-game-green-ten.vercel.app*
 
 ## 📌 Features
