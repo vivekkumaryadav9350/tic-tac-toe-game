@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   background-image: url("https://t3.ftcdn.net/jpg/07/24/90/98/240_F_724909820_QeSkRK78xeDY6j0kRuzxVIfEbTmFB4sU.jpg");
+    text-align: center;
+    color: white;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-25px;
+position: relative;
+     
+}
+
+.Game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    position: relative;
+}
+
+.box{
+     height: 18vmin;
+    width: 18vmin;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.8);
+      font-size: 8vmin;
+    color: #b0413E;
+    background-color: #ffffc7;
+    border-radius: 2vb;
+    border: none;
+
+}
+
+#new-btn{
+     padding: auto;
+    width: 18vmin;
+    height: 5vmin;
+    border-radius: 2vb;
+    font-size: 2vmin;
+    color: #b0413E;
+    background-color:#191913;
+    color: #fff;
+
+}
+
+
+#reset{
+     padding: auto;
+    width: 18vmin;
+    height: 5vmin;
+    border-radius: 2vb;
+    font-size: 2vmin;
+    color: #b0413E;
+   background-color: #191913;
+    color: whitesmoke;  
+}
+
+#msg{
+color: #ffffc7;
+    font-size: 5vmin;
+
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 4rem;
+
+
+}
+.hide{
+    display: none; 
+}
+.form{
+    margin-top: 20px;
+    word-spacing: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.forms input {
+    width: 200px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+
+}
+.btnn{
+     width: 90px;
+    height: 30px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.5rem;
+    background-color: #191913;
+    color: whitesmoke;
+}
+.winLine{
+    width: 60vmin;
+    height: 6px;
+    background-color: red;
+    position: absolute;
+    top: 30vmin;
+    left: 0;
+    transform-origin: center;
+    border-radius: 1rem;
+    z-index: 10;
+}
+#winLines{
+    display: none;
+}
+main{
+    margin-bottom: 50px;
+}
