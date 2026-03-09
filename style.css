@@ -121,18 +121,10 @@ color: #ffffc7;
     display: none;
 
   @media (max-width: 600px) {
-    .Game{
-        width: 90vw;
-        height: 90vw;
-    }
-
-    .box{
-        font-size: 12vw;
-    }
     .form{
         display: inline-block;
-    margin-top: 20px;
-    word-spacing: 15px;
+    margin-top: 16vw;
+    word-spacing: 16vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -151,4 +143,5 @@ main{
     margin-bottom: 50px;
 
 }
+
 
