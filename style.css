@@ -119,7 +119,33 @@ color: #ffffc7;
 }
 #winLines{
     display: none;
+
+    @media (max-width: 600px) {
+    .Game{
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .box{
+        font-size: 12vw;
+    }
+    .form{
+    margin-top: 20px;
+    word-spacing: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.forms input {
+    width: 20vw;
+    height: 20vw;
+    justify-content: center;
+    text-align: center;
+
+}
+}
 }
 main{
     margin-bottom: 50px;
+
 }
