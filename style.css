@@ -2,10 +2,9 @@
     margin: 0px;
     padding: 0px;
 }
- body{
+body{
    background-color: aquamarine;
 }
-
 .container{
     height: 70vh;
     display: flex;
@@ -151,4 +150,3 @@ main{
     margin-bottom: 50px;
 cursor: pointer;
 }
-
