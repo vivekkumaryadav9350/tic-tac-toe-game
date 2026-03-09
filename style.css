@@ -120,28 +120,85 @@ color: #ffffc7;
 #winLines{
     display: none;
 
-  @media (max-width: 600px) {
+ @media (max-width: 600px) {
+
+    body{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 6vw;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .Game{
+        width: 95vw;
+        height: 95vw;
+        gap: 2vw;
+    }
+
+    .box{
+        width: 28vw;
+        height: 28vw;
+        font-size: 10vw;
+    }
+
     .form{
-        display: inline-block;
-    margin-top: 16vw;
-    word-spacing: 16vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.forms input {
-    display: inline-block;
-    width: 20vw;
-    height: 20vw;
-    justify-content: center;
-    text-align: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
 
-}
-}
+    .forms input{
+        width: 70vw;
+        height: 40px;
+        font-size: 16px;
+    }
 
+    .btnn{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #reset{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    #new-btn{
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    #msg{
+        font-size: 6vw;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .msg-container{
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .winLine{
+        width: 95vw;
+    }
+}
 main{
     margin-bottom: 50px;
 
 }
+
 
 
